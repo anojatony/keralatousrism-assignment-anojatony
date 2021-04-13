@@ -62,7 +62,7 @@ function lastname(){
 }
 
 function validation(){
-    let regexp= /^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,4})(.[a-z]{2,4}?)$/;
+    let regexp= /^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,4})(\.[a-z]{2,4}?)$/;
     if(email.value.trim() ==""){
         email.style.border="1px solid red";
         error.innerHTML="** Please Enter Your Email";
